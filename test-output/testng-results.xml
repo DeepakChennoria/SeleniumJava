@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Home Page Test suite" duration-ms="47416" started-at="2017-07-02T02:58:17Z" finished-at="2017-07-02T02:59:04Z">
+    <groups>
+    </groups>
+    <test name="Home Page tests" duration-ms="47416" started-at="2017-07-02T02:58:17Z" finished-at="2017-07-02T02:59:04Z">
+      <class name="com.SeleniumJava.tests.BlogLinksTest">
+        <test-method status="PASS" signature="initiateDriver(java.lang.String)[pri:0, instance:com.SeleniumJava.tests.BlogLinksTest@83b407]" name="initiateDriver" is-config="true" duration-ms="46433" started-at="2017-07-02T08:28:17Z" finished-at="2017-07-02T08:29:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriver -->
+        <test-method status="PASS" signature="verifyLinksOnBlogTests(java.lang.String)[pri:0, instance:com.SeleniumJava.tests.BlogLinksTest@83b407]" name="verifyLinksOnBlogTests" duration-ms="285" started-at="2017-07-02T08:29:03Z" data-provider="blogLinks" finished-at="2017-07-02T08:29:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/abtest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLinksOnBlogTests -->
+        <test-method status="PASS" signature="verifyLinksOnBlogTests(java.lang.String)[pri:0, instance:com.SeleniumJava.tests.BlogLinksTest@83b407]" name="verifyLinksOnBlogTests" duration-ms="77" started-at="2017-07-02T08:29:04Z" data-provider="blogLinks" finished-at="2017-07-02T08:29:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/basic_auth]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLinksOnBlogTests -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SeleniumJava.tests.BlogLinksTest@83b407]" name="tearDown" is-config="true" duration-ms="563" started-at="2017-07-02T08:29:04Z" finished-at="2017-07-02T08:29:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SeleniumJava.tests.BlogLinksTest -->
+    </test> <!-- Home Page tests -->
+  </suite> <!-- Home Page Test suite -->
+</testng-results>

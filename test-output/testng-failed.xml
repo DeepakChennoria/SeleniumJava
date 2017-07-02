@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Home Page Test suite]">
+  <parameter name="Env" value="local"/>
+  <test name="Home Page tests">
+    <classes>
+      <class name="com.SeleniumJava.tests.BlogLinksTest">
+        <methods>
+          <include name="verifyLinksOnBlogTests"/>
+        </methods>
+      </class> <!-- com.SeleniumJava.tests.BlogLinksTest -->
+    </classes>
+  </test> <!-- Home Page tests -->
+</suite> <!-- Failed suite [Home Page Test suite] -->
